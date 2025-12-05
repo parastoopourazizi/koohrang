@@ -3,12 +3,16 @@ import './App.css'
 
 
 import Header from './components/header/Header'
-
+import FirstCart from './components/greencart/firstCart'
 
 
 function App() {
   return (
-    <Header></Header>
+    <>
+      <Header></Header>
+    <FirstCart/>
+    </>
+  
      
    
   )
