@@ -12,22 +12,24 @@ const FirstCart = () => {
       <section className="relative w-full h-[380px] bg-[#C9F6CE] rounded-2xl overflow-hidden">
   <div>
       <Comment
-        avatar="https://via.placeholder.com/40"
+        avatar="koohrang\public\images\AHMADI.png"
         name="محمد طاها"
         text="یکی از بهترین محصولاتی که خوردم"
         className="absolute bottom-12 left-24"
       />
 
       <Comment
-        avatar="https://via.placeholder.com/40"
+        avatar="koohrang\public\images\AHMADI.png"
         name="کیوان احمدی"
         text="شیرش مزه شیرازی قدیمو می‌داد"
-        className="absolute top-12 left-16"
+        className="absolute top-12 left-80"
       />
     </div>
 
         
         <div className="absolute right-16 top-1/2 -translate-y-1/2 text-right">
+        <img src="C:\Users\LOQ\Desktop\kohrang\koohrang\public\images\kooh.png"></img>
+        
         
        
 

@@ -13,7 +13,7 @@ const FourCart = () => {
 
     
       <div className="text-center bg-gray-300 p-4 rounded">
-       <Inak></Inak>
+       <Inak/>
       </div>
 
    

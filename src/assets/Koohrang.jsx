@@ -16,7 +16,9 @@ function Koohrang() {
 </g>
 </g>
 <defs>
-
+<clipPath id="clip0_76_243">
+<rect width="133" height="40.5488" fill="white"/>
+</clipPath>
 </defs>
 </svg>
 
