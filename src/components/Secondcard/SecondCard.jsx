@@ -1,42 +1,35 @@
 
 import Button from "../Button/Button"
+import TextBox from "../TextBox/TextBox";
 
 function SecondCard() {
   return (  
    <section className="w-full flex items-center justify-center bg-gradient-to-br from-green-100 to-white py-20 px-6">
 <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
-{/* Image Section */}
+
 <div className="flex justify-center md:justify-start relative">
 <div className="absolute -top-10 -left-10 w-72 h-72 bg-green-200 rounded-full opacity-40 blur-2xl"></div>
 <img
-src="/images/factory.jpg" // change path accordingly
+src="/images/factory.jpg" 
 alt="Factory"
 className="relative rounded-lg shadow-lg w-80 object-cover"
 />
 </div>
 
+<div className="flex flex-col items-end space-y-4">
+    <TextBox
+ title=" گروه صنعتی فلات کوهرنگ"
+  description=" گروه صنعتی فلات کوهرنگ با سرمایه گذاری قابل توجه چند تن از کارآفرینان برتر ملی با هدف ارائه برترین کیفیت تولید در عرصه لبنیات فعالیت خود را از سال ۱۳۷۴ آغاز نموده است . استفاده از تجهیزات و فن آوری های نوین کشورهای صنعتی پیشرفته چون سوئد و آلمان و نیز تبادل اطلاعات و استفاده از متخصصان داخلی و خارجی امکانات گسترده ای را در زمینه تولید محصولات متنوع لبنی در اختیار مجموعه قرار داده است .
 
-{/* Text Section */}
-<div className="text-gray-700 leading-8">
-<h2 className="text-3xl font-extrabold text-gray-900 mb-4">
-گروه صنعتی فلات کوهرنگ
-</h2>
-<p className="mb-3">
-گروه صنعتی فلات کوهرنگ با سرمایه گذاری قابل توجه چند تن از کارآفرینان بزرگ ملی با هدف
-ارائه برترین کیفیت تولید در عرصه لبنیات فعالیت خود را از سال ۱۳۷۴ آغاز نموده است.
-</p>
-<p className="mb-3">
-استفاده از تجهیزات و فن‌آوری‌های روز دنیا و کشور‌های صنعتی پیشرفته چون سوئد و آلمان و نیز
-تبادل اطلاعات با متخصصان داخلی و خارجی امکانات گسترده‌ای را در زمینهٔ تولید محصول متنوع
-این مجموعه قرار داده است.
-</p>
-<p className="mb-3">
-توجه به سلامت و بهداشت تولید، ارزش نهادن به حق مصرف‌کنندگان و نیز توجه به وظیفه خطیر
-تولیدکنندگان کشور موجب گردیده که کلیهٔ فرآیندها و تولیدات کارخانه بر اساس جدیدترین
-استانداردهای ملی و بین‌المللی بهداشت صورت پذیرد.
-</p>
-<Button>درباره کوهرنگ</Button>
+توجه به سلامت و بهداشت فرآیند تولید و احترام به حق مصرف کنندگان و نیز توجه به وظیفه خطیر تولیدکنندگی محصولات غذایی سبب گردیده که کلیه فرآیندها و تولیدات کارخانه از ساخت بنای آن تا هر یک از بخشهای تولیدی تحت نظارت و استانداردهای ملی و بین المللی بهداشت صورت پذیرد."
+  
+/>
+<Button>درباه کوهرنگ</Button>
+
 </div>
+
+
+
 </div>
 </section>
   );

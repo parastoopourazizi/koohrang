@@ -1,6 +1,8 @@
 import React from "react";
-import Button from "../Button/Button";
+
 import ProductCart from "./ProductCart";
+import TextBox from "../TextBox/TextBox";
+import Button from "../Button/Button";
 
 const productsData = [
   { img: "/img1.jpg", date: "2025-12-06", title: "محصول 1" },
@@ -11,17 +13,28 @@ const productsData = [
   
   return (
     
-    <section className="flex items-center justify-between p-6">
- <ProductCart  products={productsData} />;
+    <section className="w-full flex items-center justify-center bg-gradient-to-br from-green-100 to-white py-20 px-6">
+        <div className="flex w-full max-w-6xl items-start justify-between">
+            <div className="flex space-x-4">
+                             <ProductCart  products={productsData} />;
+
+
+            </div>
 
 
 
-
-<div className="flex flex-col gap-4 order-1 md:order-2 text-right pr-4">
-<h2 className="text-3xl font-bold text-gray-800">آخرین مقالات و اخبار</h2>
-<p className="text-gray-600 text-base">زیر عنوان مناسب برای این بخش</p>
+<div className="flex flex-col items-end space-y-4">
+    <TextBox
+ title=" آخرین مقالات و اخبار"
+  description="زیر عنوان مناسب برای این بخش "
+  
+/>
 <Button>اخبار</Button>
+    
 </div>
+
+        </div>
+
 
 </section>
   );
