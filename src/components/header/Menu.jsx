@@ -3,13 +3,14 @@ import React from 'react'
 function Menu() {
   return (
     <div >
-  <nav className="ml-6 space-x-4 text-green-600 font-medium">
-          <a href="/">صفحه اصلی</a>
-          <a href="/products">محصولات</a>
-          <a href="/articles">مقالات</a>
-          <a href="/news">اخبار</a>
-          <a href="/distribution">توزیع و فروش</a>
-          <a href="/about">درباره ما</a>
+  <nav className="ml-6 ml-auto flex gap-x-4 space-x-reverse text-green-600 font-medium
+  ">
+          <a href="">صفحه اصلی</a>
+          <a href="">محصولات</a>
+          <a href="">مقالات</a>
+          <a href="">اخبار</a>
+          <a href="">توزیع و فروش</a>
+          <a href="">درباره ما</a>
         </nav></div>
   )
 }
