@@ -1,15 +1,11 @@
 import React from "react";
 
-import ProductCart from "./ProductCart";
+
 import TextBox from "../TextBox/TextBox";
 import Button from "../Button/Button";
 
-const productsData = [
-  { img: "/img.jpg", date: "2025-12-06", title: "محصول 1" },
-  { img: "/img.jpg", date: "2025-12-05", title: "محصول 2" },
-  { img: "/img.jpg", date: "2025-12-04", title: "محصول 3" },
-];
- function ThreeCart() {
+
+ function Gallery() {
   
   return (
     
@@ -18,16 +14,16 @@ const productsData = [
 
    
     <div className="flex w-full md:w-1/2 justify-start">
-      <ProductCart products={productsData} />
+      
     </div>
 
    
     <div className="flex flex-col items-end w-full md:w-1/2 space-y-4">
       <TextBox
-        title="آخرین مقالات و اخبار"
+        title="  و اخبار"
         description="زیر عنوان مناسب برای این بخش"
       />
-      <Button className="self-end mt-4">اخبار</Button>
+      <Button className="self-end mt-4">مشاهده گالری تصاویر</Button>
     </div>
 
   </div>
@@ -36,4 +32,4 @@ const productsData = [
 
   );
 }
-export default ThreeCart
+export default Gallery

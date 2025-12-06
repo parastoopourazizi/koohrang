@@ -7,6 +7,7 @@ import FirstCart from './components/greencart/firstCart'
 import SecondCard from './components/Secondcard/SecondCard'
 import ThreeCart from './components/ThreeCart/ThreeCart'
 import FourCart from './components/FourCart/FourCart'
+import Gallery from './components/Gallery/Gallery'
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
     <SecondCard/>
     <ThreeCart/>
     <FourCart/>
+    <Gallery/>
+    
 
     </>
   
