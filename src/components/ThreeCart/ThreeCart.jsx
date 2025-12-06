@@ -15,6 +15,7 @@ const productsData = [
     
     <section className="w-full flex items-center justify-center bg-gradient-to-br from-green-100 to-white py-20 px-6">
         <div className="flex w-full max-w-6xl items-start justify-between">
+            
             <div className="flex space-x-4">
                              <ProductCart  products={productsData} />;
 

@@ -6,6 +6,7 @@ import Header from './components/header/Header'
 import FirstCart from './components/greencart/firstCart'
 import SecondCard from './components/Secondcard/SecondCard'
 import ThreeCart from './components/ThreeCart/ThreeCart'
+import FourCart from './components/FourCart/FourCart'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <FirstCart/>
     <SecondCard/>
     <ThreeCart/>
+    <FourCart/>
 
     </>
   

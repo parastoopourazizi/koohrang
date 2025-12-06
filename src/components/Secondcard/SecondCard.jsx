@@ -1,19 +1,19 @@
 
+import Circle from "../../assets/Circle";
 import Button from "../Button/Button"
 import TextBox from "../TextBox/TextBox";
 
+
 function SecondCard() {
   return (  
-   <section className="w-full flex items-center justify-center bg-gradient-to-br from-green-100 to-white py-20 px-6">
+   <section className="w-full flex items-center justify-center  from-green-100 to-white py-20 px-6">
 <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
 
 <div className="flex justify-center md:justify-start relative">
 <div className="absolute -top-10 -left-10 w-72 h-72 bg-green-200 rounded-full opacity-40 blur-2xl"></div>
-<img
-src="/images/factory.jpg" 
-alt="Factory"
-className="relative rounded-lg shadow-lg w-80 object-cover"
-/>
+<Circle/>
+
+
 </div>
 
 <div className="flex flex-col items-end space-y-4">
