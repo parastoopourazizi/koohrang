@@ -1,4 +1,4 @@
-export default function Button({
+ function Button({
   children,
   variant = "outline",   
   className = "",
@@ -25,3 +25,4 @@ export default function Button({
     </button>
   );
 }
+export default Button
