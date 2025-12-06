@@ -8,7 +8,8 @@ import SecondCard from './components/Secondcard/SecondCard'
 import ThreeCart from './components/ThreeCart/ThreeCart'
 import FourCart from './components/FourCart/FourCart'
 import Gallery from './components/Gallery/Gallery'
-
+import Media from './components/Medias/Media'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
     <ThreeCart/>
     <FourCart/>
     <Gallery/>
+    <Media/>
+    <Footer/>
     
 
     </>
